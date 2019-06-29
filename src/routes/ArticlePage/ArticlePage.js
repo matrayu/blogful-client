@@ -30,6 +30,7 @@ export default class ArticlePage extends Component {
   }
 
   renderArticle() {
+    console.log('Article Page Loaded')
     const { article, comments } = this.context
     return <>
       <h2>{article.title}</h2>
